@@ -13,8 +13,7 @@ console.log(palindrome(" "));
 
 //Задача - zip it
 
-const countSymbols = (str, st) => {
-  console.log(st);
+const countSymbols = (str) => {
   return str.split("").reduce((a, b) => {
     if (!a) return `${b}1`;
     if (a[a.length - 2] === b) {
